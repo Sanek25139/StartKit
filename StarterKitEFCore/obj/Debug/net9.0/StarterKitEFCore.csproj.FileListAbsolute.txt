@@ -1,0 +1,12 @@
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\bin\Debug\net9.0\StarterKitEFCore.deps.json
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\bin\Debug\net9.0\StarterKitEFCore.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\bin\Debug\net9.0\StarterKitEFCore.pdb
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.csproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.AssemblyInfo.cs
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\refint\StarterKitEFCore.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\StarterKitEFCore.pdb
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net9.0\ref\StarterKitEFCore.dll
