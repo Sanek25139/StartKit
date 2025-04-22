@@ -1,10 +1,10 @@
 ﻿
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using StarterKitEFCore.Model;
+using StarterKit.EF.Model;
 using System.Collections.ObjectModel;
 using System.Linq.Expressions;
 
-namespace StarterKitEFCore.Services.Interface
+namespace StarterKit.EF.Services.Interface
 {
     public interface IDataService
     {

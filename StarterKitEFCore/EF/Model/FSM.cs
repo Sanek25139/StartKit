@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace StarterKitEFCore.Model
+namespace StarterKit.EF.Model
 {
     [Owned]
     public class FSM

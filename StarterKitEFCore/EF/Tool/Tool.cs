@@ -1,4 +1,4 @@
-﻿using StarterKitEFCore.Model;
+﻿using StarterKit.EF.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Linq.Expressions;
+using StarterKit.EF.Tool;
 
-namespace StarterKitEFCore.Tool
+namespace StarterKit.EF.Tool
 {
     public static class Tool
     {

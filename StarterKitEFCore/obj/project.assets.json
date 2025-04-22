@@ -545,9 +545,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\StarterKitEFCore.csproj",
-      "projectName": "StarterKitEFCore",
-      "projectPath": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\StarterKitEFCore.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\StarterKit.csproj",
+      "projectName": "StarterKit",
+      "projectPath": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\StarterKit.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\obj\\",
       "projectStyle": "PackageReference",

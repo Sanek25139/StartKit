@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using StarterKitEFCore.Model;
-using StarterKitEFCore.Services.Interface;
+using StarterKit.EF.Model;
+using StarterKit.EF.Services.Interface;
+using StarterKit.Tool;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -10,7 +11,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StarterKitEFCore.Services
+namespace StarterKit.EF.Services
 {
     public class DataService<TC>(TC context) : IDataService where TC : DbContext
     {
@@ -114,12 +115,14 @@ namespace StarterKitEFCore.Services
 
         public async Task DeleteAsync<T>(T entity) where T : BaseEntity
         {
+           entity.OnDelete();
             _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
         }
-        public async Task DeleteRangeAsync<T>(IEnumerable<T> entity) where T : BaseEntity
+        public async Task DeleteRangeAsync<T>(IEnumerable<T> entitis) where T : BaseEntity
         {
-            _context.Set<T>().RemoveRange(entity);
+            entitis.Executes(e=>e.OnDelete());
+            _context.Set<T>().RemoveRange(entitis);
             await _context.SaveChangesAsync();
         }
 

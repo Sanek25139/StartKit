@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StarterKitEFCore.Model
+namespace StarterKit.EF.Model
 {
     public class NameEntity : BaseEntity
     {

@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using StarterKit.EF.Services;
+using StarterKit.EF.Services.Interface;
 
-namespace StarterKitEFCore.Extensions
+namespace StarterKit.Extensions
 {
-    using Microsoft.EntityFrameworkCore;
-    using Microsoft.Extensions.DependencyInjection;
-    using StarterKitEFCore.Services;
-    using StarterKitEFCore.Services.Interface;
-
     public static class ServiceCollectionExtensions
     {
         public static IServiceCollection AddDataService<DB>(this IServiceCollection services) where DB : DbContext

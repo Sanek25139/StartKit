@@ -1,9 +1,47 @@
-﻿namespace StarterKitEFCore.Model
+﻿using StarterKit.EF.Attributes;
+using System.Collections.Concurrent;
+using System.Reflection;
+
+namespace StarterKit.EF.Model
 {
     public class BaseEntity
     {
         public ulong Id { get; set; }
 
+        private static readonly ConcurrentDictionary<Type, PropertyInfo[]> _linkedPropertiesCache = [];
+
+        /// <summary>
+        /// Автоматически зануляет все свойства, связанные с указанным типом.
+        /// </summary>
+        public void SetNull(Type targetType)
+        {
+            var properties = _linkedPropertiesCache.GetOrAdd(
+           GetType(),
+           type => type.GetProperties()
+               .Where(p => p.IsDefined(typeof(LinkedEntityAttribute), inherit: true))
+               .ToArray()
+       );
+
+            foreach (var prop in properties)
+            {
+                var attr = prop.GetCustomAttribute<LinkedEntityAttribute>();
+                if (attr?.TargetType == null || attr.TargetType == targetType)
+                {
+                    prop.SetValue(this, null);
+                }
+            }
+        }
+        /// <summary>
+        /// Выполняет архивацию.
+        /// </summary>
+        public virtual void Archiving()
+        {
+
+        }
+        public virtual void OnDelete()
+        {
+
+        }
         public override bool Equals(object? obj)
         {
             // Проверяем, является ли объект тем же типом
@@ -59,5 +97,7 @@
             }
             return entity.Id; // Возвращаем Id
         }
+
+       
     }
 }
