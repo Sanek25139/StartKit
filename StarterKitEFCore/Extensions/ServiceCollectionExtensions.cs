@@ -13,17 +13,6 @@ namespace StarterKit.Extensions
             // Добавьте другие сервисы по мере необходимости
             return services;
         }
-        public static IServiceCollection AddVVMTransient<TView, TViewModel>(this IServiceCollection services) where TView : class where TViewModel : class
-        {
-            services.AddTransient<TView>();
-            services.AddTransient<TViewModel>();
-            return services;
-        }
-        public static IServiceCollection AddVVMSingleton<TView, TViewModel>(this IServiceCollection services) where TView : class where TViewModel : class
-        {
-            services.AddSingleton<TView>();
-            services.AddSingleton<TViewModel>();
-            return services;
-        }
+        
     }
 }
