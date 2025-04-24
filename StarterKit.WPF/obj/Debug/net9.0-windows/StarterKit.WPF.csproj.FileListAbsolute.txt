@@ -1,0 +1,16 @@
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\bin\Debug\net9.0-windows\StarterKit.WPF.deps.json
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\bin\Debug\net9.0-windows\StarterKit.WPF.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\bin\Debug\net9.0-windows\StarterKit.WPF.pdb
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\bin\Debug\net9.0-windows\StarterKit.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\bin\Debug\net9.0-windows\StarterKit.pdb
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.csproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.AssemblyInfo.cs
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.sourcelink.json
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterK.E0B5E8AD.Up2Date
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\refint\StarterKit.WPF.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.pdb
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\ref\StarterKit.WPF.dll

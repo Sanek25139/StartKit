@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("StarterKit")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("StarterKit.WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb030e2d3092f7b7d204e3a3922bf6f7ce456cf8")]
-[assembly: System.Reflection.AssemblyProductAttribute("StarterKit")]
-[assembly: System.Reflection.AssemblyTitleAttribute("StarterKit")]
+[assembly: System.Reflection.AssemblyProductAttribute("StarterKit.WPF")]
+[assembly: System.Reflection.AssemblyTitleAttribute("StarterKit.WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

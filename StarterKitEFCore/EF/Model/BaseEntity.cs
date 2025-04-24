@@ -31,16 +31,20 @@ namespace StarterKit.EF.Model
                 }
             }
         }
+
         /// <summary>
-        /// Выполняет архивацию.
+        /// Выполняет архивацию при удалении записи.
         /// </summary>
         public virtual void Archiving()
         {
 
         }
+        /// <summary>
+        /// Метод вызывается перед удалением 
+        /// </summary>
         public virtual void OnDelete()
         {
-
+            Archiving();
         }
         public override bool Equals(object? obj)
         {
