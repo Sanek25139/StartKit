@@ -12,7 +12,7 @@ namespace StarterKit.EF.Services.Interface
         Task<ObservableCollection<T>> GetAllAsync<T>() where T : BaseEntity;
         Task<ObservableCollection<T>> GetAllAsync<T>(Func<IQueryable<T>, IQueryable<T>>? queryBuilder = null) where T : BaseEntity;
 
-        Task<ObservableCollection<T>> GetAllWithIncludeAsync<T>(params Expression<Func<T, object>>[] includes) where T : BaseEntity;
+        Task<ObservableCollection<T>> GetAllWithIncludeAsync<T>(params Expression<Func<T, object?>>[] includes) where T : BaseEntity;
         Task<ObservableCollection<T>> GetAllWithThenIncludeAsync<T>(params Func<IQueryable<T>, IQueryable<T>>[] includes) where T : BaseEntity;
 
 

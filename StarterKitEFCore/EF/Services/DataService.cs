@@ -30,6 +30,31 @@ namespace StarterKit.EF.Services
                 _dbSemaphore.Release();
             }
         }
+        public async Task ExecuteDbOperationAsync(Func<TC, Task> operation)
+        {
+            await _dbSemaphore.WaitAsync();
+            try
+            {
+                await operation(_context);
+            }
+            finally
+            {
+                _dbSemaphore.Release();
+            }
+        }
+        public T ExecuteDbOperation<T>(Func<TC, T> operation)
+        {
+            _dbSemaphore.Wait(); // Ожидаем семафор синхронно
+            try
+            {
+                return operation(_context); // Выполняем операцию
+            }
+            finally
+            {
+                _dbSemaphore.Release(); // Освобождаем семафор
+            }
+        }
+
 
         public IQueryable<T> GetAll<T>() where T : BaseEntity
         {
@@ -60,7 +85,7 @@ namespace StarterKit.EF.Services
         }
 
         public async Task<ObservableCollection<T>> GetAllWithIncludeAsync<T>(
-            params Expression<Func<T, object>>[] includes) where T : BaseEntity
+            params Expression<Func<T, object?>>[] includes) where T : BaseEntity
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
@@ -115,15 +140,23 @@ namespace StarterKit.EF.Services
 
         public async Task DeleteAsync<T>(T entity) where T : BaseEntity
         {
-           entity.OnDelete();
-            _context.Set<T>().Remove(entity);
-            await _context.SaveChangesAsync();
+            await ExecuteDbOperationAsync(async ctx =>
+            {
+                entity.OnDelete();
+                _context.Set<T>().Remove(entity);
+                await _context.SaveChangesAsync();
+            });
+          
         }
         public async Task DeleteRangeAsync<T>(IEnumerable<T> entitis) where T : BaseEntity
         {
-            entitis.Executes(e=>e.OnDelete());
-            _context.Set<T>().RemoveRange(entitis);
-            await _context.SaveChangesAsync();
+            await ExecuteDbOperationAsync(async ctx =>
+            {
+                entitis.Executes(e => e.OnDelete());
+                _context.Set<T>().RemoveRange(entitis);
+                await _context.SaveChangesAsync();
+            });
+          
         }
 
         public async Task SaveChangesAsync()

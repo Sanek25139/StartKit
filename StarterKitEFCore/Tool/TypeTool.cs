@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -14,11 +15,39 @@ namespace StarterKit.Tool
             foreach(T value in values)
                 method(value);
         }
-        public static async Task ExecutesAsync<T>(this IEnumerable<T> values, Func<T, Task> method)
+        public static void Executes(Action method, int repeat)
         {
-            foreach (T value in values)
-                await method(value);
+            for(int i = 0; i < repeat; i++)
+            {
+                method?.Invoke();
+            }
         }
+        public static ICollection<T> Executes<T>(Func<T> method, int repeat)
+        {
+            ICollection<T> collection = [];
+            for (int i = 0; i < repeat; i++)
+            {
+                collection.Add(method.Invoke());
+            }
+            return collection;
+        }
+        public static void Executes(this int repeat, Action method)
+        {
+            for (int i = 0; i < repeat; i++)
+            {
+                method?.Invoke();
+            }
+        }
+        public static ICollection<T> Executes<T>(this int repeat, Func<T> method)
+        {
+            ICollection<T> collection = [];
+            for (int i = 0; i < repeat; i++)
+            {
+                collection.Add(method.Invoke());
+            }
+            return collection;
+        }
+
         public static ICollection<TResult> Executes<T,TResult>(this IEnumerable<T> values, Func<T,TResult> method)
         {
             ICollection<TResult> result = [];
@@ -26,12 +55,14 @@ namespace StarterKit.Tool
                 result.Add(method(value));
             return result;
         }
-        public static async Task<ICollection<TResult>> ExecutesAsync<T, TResult>(this IEnumerable<T> values, Func<T, Task<TResult>> method)
+        public static async Task<ICollection<TResult> > ExecutesAsync<T, TResult>(this IEnumerable<T> values, Func<T, Task<TResult>> method)
         {
             ICollection<TResult> result = [];
             foreach (T value in values)
                 result.Add(await method(value));
             return result;
         }
+
+       
     }
 }

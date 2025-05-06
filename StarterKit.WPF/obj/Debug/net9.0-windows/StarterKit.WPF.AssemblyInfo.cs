@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StarterKit.WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9504e7ea22ec89e5691e99f7d042641f3b37f66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa89ba8995d16b93ea8b72a91a1f62cc59e8302")]
 [assembly: System.Reflection.AssemblyProductAttribute("StarterKit.WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StarterKit.WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
