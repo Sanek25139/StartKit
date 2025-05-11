@@ -3,80 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\nameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\nameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\interface\\icallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\interface\\icallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\manytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\manytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\tool\\typetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\tool\\typetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\attributes\\linkedentityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\attributes\\linkedentityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\service\\interface\\itypecontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\service\\interface\\itypecontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\service\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\service\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\service\\interface\\iloaded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\service\\interface\\iloaded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\basevm\\windows\\windowselectionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\basevm\\windows\\windowselectionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\tool\\filetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\tool\\filetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\convertors\\collectiontypeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\convertors\\collectiontypeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\starterkit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\starterkit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\services\\interface\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\services\\interface\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\convertors\\entityisemptyconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\convertors\\entityisemptyconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\tool\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\tool\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\basevm\\pages\\pagedatavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\basevm\\pages\\pagedatavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\basevm\\pages\\basepagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\basevm\\pages\\basepagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\basevm\\pages\\basepageeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\basevm\\pages\\basepageeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\convertors\\entityisnotemptyconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\convertors\\entityisnotemptyconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\service\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\service\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\interface\\itabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\interface\\itabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\ifsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\ifsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\tool\\typetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\tool\\typetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\interface\\icallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\interface\\icallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\nameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\nameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\manytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\manytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\model\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\model\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\basevm\\windows\\basewindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\basevm\\windows\\basewindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\starterkit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\starterkit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\attributes\\linkedentityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\attributes\\linkedentityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\service\\interface\\itypecontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\service\\interface\\itypecontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\service\\interface\\iloaded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\service\\interface\\iloaded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkit.wpf\\tool\\filetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CF9051-BC40-4F3C-AA04-AB484B61BC81}|StarterKit.WPF\\StarterKit.WPF.csproj|solutionrelative:starterkit.wpf\\tool\\filetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|c:\\users\\sasha\\source\\repos\\starterkitefcore\\starterkitefcore\\ef\\services\\interface\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48378AA-9399-4FA6-AEF4-3AC57E5230EA}|StarterKitEFCore\\StarterKit.csproj|solutionrelative:starterkitefcore\\ef\\services\\interface\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -103,6 +147,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "IFSM.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\IFSM.cs",
+              "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Model\\IFSM.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\IFSM.cs",
+              "RelativeToolTip": "StarterKitEFCore\\EF\\Model\\IFSM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:59:37.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollectionTypeConverter.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Convertors\\CollectionTypeConverter.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Convertors\\CollectionTypeConverter.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Convertors\\CollectionTypeConverter.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Convertors\\CollectionTypeConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:49:28.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityIsEmptyConvertor.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Convertors\\EntityIsEmptyConvertor.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Convertors\\EntityIsEmptyConvertor.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Convertors\\EntityIsEmptyConvertor.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Convertors\\EntityIsEmptyConvertor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:47:53.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EntityIsNotEmptyConvertor.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Convertors\\EntityIsNotEmptyConvertor.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Convertors\\EntityIsNotEmptyConvertor.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Convertors\\EntityIsNotEmptyConvertor.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Convertors\\EntityIsNotEmptyConvertor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:47:50.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITabControl.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Interface\\ITabControl.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Interface\\ITabControl.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Interface\\ITabControl.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Interface\\ITabControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:14:24.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\PageService.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Service\\PageService.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\PageService.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Service\\PageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:07:26.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowSelectionVM.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Windows\\WindowSelectionVM.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\BaseVM\\Windows\\WindowSelectionVM.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Windows\\WindowSelectionVM.cs",
+              "RelativeToolTip": "StarterKit.WPF\\BaseVM\\Windows\\WindowSelectionVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:43:09.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseWindowVM.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Windows\\BaseWindowVM.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\BaseVM\\Windows\\BaseWindowVM.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Windows\\BaseWindowVM.cs",
+              "RelativeToolTip": "StarterKit.WPF\\BaseVM\\Windows\\BaseWindowVM.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:36:13.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BasePageEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Pages\\BasePageEditVM.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\BaseVM\\Pages\\BasePageEditVM.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Pages\\BasePageEditVM.cs",
+              "RelativeToolTip": "StarterKit.WPF\\BaseVM\\Pages\\BasePageEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:05:37.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageDataVM.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Pages\\PageDataVM.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\BaseVM\\Pages\\PageDataVM.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Pages\\PageDataVM.cs",
+              "RelativeToolTip": "StarterKit.WPF\\BaseVM\\Pages\\PageDataVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:02:48.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAADSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:29:07.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "StarterKit",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\StarterKit.csproj",
               "RelativeDocumentMoniker": "StarterKitEFCore\\StarterKit.csproj",
@@ -114,7 +301,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
+              "Title": "BasePageVM.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Pages\\BasePageVM.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\BaseVM\\Pages\\BasePageVM.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\BaseVM\\Pages\\BasePageVM.cs",
+              "RelativeToolTip": "StarterKit.WPF\\BaseVM\\Pages\\BasePageVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:00:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "FileTool.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Tool\\FileTool.cs",
               "RelativeDocumentMoniker": "StarterKit.WPF\\Tool\\FileTool.cs",
@@ -122,25 +322,11 @@
               "RelativeToolTip": "StarterKit.WPF\\Tool\\FileTool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T04:52:23.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T04:52:23.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "StarterKit.WPF\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T07:29:07.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "ILoaded.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\Interface\\ILoaded.cs",
               "RelativeDocumentMoniker": "StarterKit.WPF\\Service\\Interface\\ILoaded.cs",
@@ -148,25 +334,24 @@
               "RelativeToolTip": "StarterKit.WPF\\Service\\Interface\\ILoaded.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T07:07:23.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T07:07:23.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "WindowService.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\WindowService.cs",
               "RelativeDocumentMoniker": "StarterKit.WPF\\Service\\WindowService.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\WindowService.cs",
               "RelativeToolTip": "StarterKit.WPF\\Service\\WindowService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAADwvxIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T06:55:04.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "ITypeControlService.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\Interface\\ITypeControlService.cs",
               "RelativeDocumentMoniker": "StarterKit.WPF\\Service\\Interface\\ITypeControlService.cs",
@@ -174,50 +359,50 @@
               "RelativeToolTip": "StarterKit.WPF\\Service\\Interface\\ITypeControlService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:49:49.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T06:49:49.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Services\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Services\\Interface\\IUserService.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Services\\Interface\\IUserService.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Services\\Interface\\IUserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T06:32:14.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "IUser.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\IUser.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Model\\IUser.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\IUser.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Model\\IUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T06:30:31.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "DataService.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Services\\DataService.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Services\\DataService.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Services\\DataService.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Services\\DataService.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T09:00:18.792Z"
+              "WhenOpened": "2025-04-14T09:00:18.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "IDataService.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Services\\Interface\\IDataService.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Services\\Interface\\IDataService.cs",
@@ -229,20 +414,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "ICallback.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Interface\\ICallback.cs",
               "RelativeDocumentMoniker": "StarterKit.WPF\\Interface\\ICallback.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Interface\\ICallback.cs",
               "RelativeToolTip": "StarterKit.WPF\\Interface\\ICallback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T06:56:31.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\Extensions\\ServiceCollectionExtensions.cs",
@@ -250,38 +435,37 @@
               "RelativeToolTip": "StarterKitEFCore\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:58:58.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T08:58:58.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "ManyToMany.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\ManyToMany.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Model\\ManyToMany.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\ManyToMany.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Model\\ManyToMany.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T15:20:19.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "TypeTool.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\Tool\\TypeTool.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\Tool\\TypeTool.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\Tool\\TypeTool.cs",
               "RelativeToolTip": "StarterKitEFCore\\Tool\\TypeTool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T12:16:45.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "LinkedEntityAttribute.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Attributes\\LinkedEntityAttribute.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Attributes\\LinkedEntityAttribute.cs",
@@ -289,24 +473,24 @@
               "RelativeToolTip": "StarterKitEFCore\\EF\\Attributes\\LinkedEntityAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:12:38.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T12:12:38.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "Tool.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Tool\\Tool.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Tool\\Tool.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Tool\\Tool.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Tool\\Tool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:01:54.522Z"
+              "WhenOpened": "2025-04-14T10:01:54.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "NameEntity.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\NameEntity.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Model\\NameEntity.cs",
@@ -319,25 +503,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "FSM.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\FSM.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Model\\FSM.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\FSM.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Model\\FSM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:55:38.86Z"
+              "WhenOpened": "2025-04-14T08:55:38.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\BaseEntity.cs",
               "RelativeDocumentMoniker": "StarterKitEFCore\\EF\\Model\\BaseEntity.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\EF\\Model\\BaseEntity.cs",
               "RelativeToolTip": "StarterKitEFCore\\EF\\Model\\BaseEntity.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAArwCoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T08:54:07.808Z",
               "EditorCaption": ""

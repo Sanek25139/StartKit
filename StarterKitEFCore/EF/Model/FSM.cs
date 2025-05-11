@@ -17,10 +17,19 @@ namespace StarterKit.EF.Model
             SecondName = str[1];
             MiddleName = str[2];
         }
+        public string ToFullString() => $"{FirstName} {SecondName} {MiddleName}";
 
-        public override string ToString()
+        public string ToShortString() => $"{FirstName} {SecondName[0]}.{MiddleName[0]}.";
+
+        public override string ToString() => ToFullString();
+
+        public bool Contains(string searchText)
         {
-            return $"{FirstName} {SecondName} {MiddleName}";
+            if (string.IsNullOrWhiteSpace(searchText))
+                return false;
+
+            return ToFullString().Contains(searchText, StringComparison.CurrentCultureIgnoreCase) ||
+                   ToShortString().Contains(searchText, StringComparison.CurrentCultureIgnoreCase);
         }
     }
 }

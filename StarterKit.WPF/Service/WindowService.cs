@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using StarterKit.EF.Model;
+using StarterKit.WPF.Interface;
 using StarterKit.WPF.Service.Interface;
 using System.Windows;
 using static StarterKit.WPF.Interface.ICallback;
@@ -69,7 +70,7 @@ namespace StarterKit.WPF.Service
 
         private Window GetWindow(Type viewModel)
         {
-            if (ViewModelToWindowMap.TryGetValue(viewModel, out Type vm))
+            if (ViewModelToWindowMap.TryGetValue(viewModel, out Type? vm))
             {
                 var windowType = vm;
                 return (Window)ServiceProvider.GetService(windowType)!;

@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Linq.Expressions;
 using StarterKit.EF.Tool;
+using System.Collections.ObjectModel;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace StarterKit.EF.Tool
 {
@@ -67,6 +69,53 @@ namespace StarterKit.EF.Tool
             await reload(relatedEntity);
 
             return entity; // Возвращаем текущий EntityEntry<T>
+        }
+
+
+        public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, Func<T, string> property, string text) where T : BaseEntity where TC : IEnumerable<T>
+        {
+            IEnumerable<T> records = await source;
+            ArgumentNullException.ThrowIfNull(records);
+            ArgumentNullException.ThrowIfNull(text);
+
+            var result = records.Where(record =>
+            {
+                var propertyValue = property(record);
+                return propertyValue != null && propertyValue.Contains(text, StringComparison.CurrentCultureIgnoreCase);
+            });
+            return [.. result];
+        }
+
+        public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, string text) where T : NameEntity where TC : IEnumerable<T>
+        {
+            IEnumerable<T> records = await source;
+            ArgumentNullException.ThrowIfNull(records);
+            ArgumentNullException.ThrowIfNull(text);
+
+            return [.. records.Where(record => record.Name != null && record.Name.Contains(text, StringComparison.CurrentCultureIgnoreCase))];
+        }
+        public static async Task<ObservableCollection<T>> SearchByFSMAsync<T, TC>(
+        this Task<TC> source,
+        string searchText)
+        where T : BaseEntity, IFSM
+        where TC : IEnumerable<T>
+        {
+            IEnumerable<T> records = await source;
+            ArgumentNullException.ThrowIfNull(records);
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. records];
+
+            return [.. records.Where(r =>
+                    r.FSM != null &&
+                    r.FSM.Contains(searchText))];
+        }
+
+        public static void IsSet<T>(ref T property,T value)
+        {
+            if (property.Equals(value))
+                return;
+            property = value;
         }
 
     }

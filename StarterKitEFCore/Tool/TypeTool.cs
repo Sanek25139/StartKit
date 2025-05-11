@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StarterKit.EF.Model;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -63,6 +64,47 @@ namespace StarterKit.Tool
             return result;
         }
 
-       
+        public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, Func<T, string> property, string searchText) where T : BaseEntity where TC : IEnumerable<T>
+        {
+            IEnumerable<T> records = await source;
+            ArgumentNullException.ThrowIfNull(records);
+            ArgumentNullException.ThrowIfNull(searchText);
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. records];
+
+            var result = records.Where(record =>
+            {
+
+                var propertyValue = property(record);
+                return propertyValue != null && propertyValue.Contains(searchText, StringComparison.CurrentCultureIgnoreCase);
+            });
+            return [.. result];
+        }
+        public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, string searchText) where T : NameEntity where TC : IEnumerable<T>
+        {
+            IEnumerable<T> records = await source;
+            ArgumentNullException.ThrowIfNull(records);
+            ArgumentNullException.ThrowIfNull(searchText);
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. records];
+            return [.. records.Where(record => record.Name != null && record.Name.Contains(searchText, StringComparison.CurrentCultureIgnoreCase))];
+        }
+        public static async Task<ObservableCollection<T>> SearchByFSMAsync<T, TC>(
+        this Task<TC> source,
+        string searchText)
+        where T : BaseEntity, IFSM
+        where TC : IEnumerable<T>
+        {
+            IEnumerable<T> records = await source;
+            ArgumentNullException.ThrowIfNull(records);
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. records];
+
+            return [.. records.Where(r =>
+                    r.FSM != null &&
+                    r.FSM.Contains(searchText))];
+        }
     }
 }

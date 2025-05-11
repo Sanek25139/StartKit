@@ -1,11 +1,13 @@
 ﻿namespace StarterKit.EF.Model
 {
-    public class ManyToMany<T1,T2> where T1 : BaseEntity where T2 : BaseEntity
+    public abstract class ManyToMany<TLeft, TRight>
+    where TLeft : BaseEntity
+    where TRight : BaseEntity
     {
-        public T1? Entity1 { get; set; }
-        public ulong Entity1Id { get; set; }
+        public ulong LeftEntityId { get; set; }
+        public ulong RightEntityId { get; set; }
 
-        public T2? Entity2 { get; set; }
-        public ulong Entity2Id { get; set; }
+        public TLeft? LeftEntity { get; set; }
+        public TRight? RightEntity { get; set; }
     }
 }
