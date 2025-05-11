@@ -39,7 +39,7 @@ namespace StarterKit.WPF.Service
             window.Show();
         }
 
-        public async Task ShowControlAsync<T>(Type viewModel, Func<Task> callback, T? entity = null) where T : BaseEntity
+        public async Task ShowControlAsync<T>(Type viewModel, Func<Task> callback, T? entity) where T : BaseEntity
         {
             Window window = GetWindow(viewModel);
             if (window is ICallbackAsync windowCallback)
@@ -48,6 +48,24 @@ namespace StarterKit.WPF.Service
                 if (entity != null && windowCallback.ObservableObject is ILoadedAsync<T> vm)
                 {
                     await vm.Loaded(entity);
+                }
+                else if (entity == null && windowCallback.ObservableObject is ILoadedAsync vm2)
+                {
+                    await vm2.Loaded();
+                }
+            }
+            await Application.Current.Dispatcher.InvokeAsync(() => window.Show());
+        }
+
+        public async Task ShowControlAsync(Type viewModel, Func<Task> callback)
+        {
+            Window window = GetWindow(viewModel);
+            if (window is ICallbackAsync windowCallback)
+            {
+                windowCallback.Subscribe(callback);
+                if (windowCallback.ObservableObject is ILoadedAsync vm)
+                {
+                    await vm.Loaded();
                 }
             }
             await Application.Current.Dispatcher.InvokeAsync(() => window.Show());

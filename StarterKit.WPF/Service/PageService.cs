@@ -36,5 +36,10 @@ namespace Cinema.Services
         {
             throw new NotImplementedException();
         }
+
+        public Task ShowControlAsync(Type viewModel, Func<Task> callback)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

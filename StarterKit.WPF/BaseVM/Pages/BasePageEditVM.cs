@@ -16,7 +16,7 @@ namespace StarterKit.WPF.BaseVM.Pages
 
         protected override async Task Add()
         {
-            await ControlService.ShowControlAsync<T>(GetType(), Callback);
+            await ControlService.ShowControlAsync(GetType(), Callback);
 
         }
 
