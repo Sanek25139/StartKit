@@ -39,6 +39,12 @@ namespace StarterKit.Tool
                 method?.Invoke();
             }
         }
+
+        public static async Task ExecutesAsync<T>(this IEnumerable<T> values, Func<T,Task> method)
+        {
+            foreach (T value in values)
+                await method.Invoke(value);
+        }
         public static ICollection<T> Executes<T>(this int repeat, Func<T> method)
         {
             ICollection<T> collection = [];
@@ -49,13 +55,7 @@ namespace StarterKit.Tool
             return collection;
         }
 
-        public static ICollection<TResult> Executes<T,TResult>(this IEnumerable<T> values, Func<T,TResult> method)
-        {
-            ICollection<TResult> result = [];
-            foreach (T value in values)
-                result.Add(method(value));
-            return result;
-        }
+        
         public static async Task<ICollection<TResult> > ExecutesAsync<T, TResult>(this IEnumerable<T> values, Func<T, Task<TResult>> method)
         {
             ICollection<TResult> result = [];
@@ -63,6 +63,7 @@ namespace StarterKit.Tool
                 result.Add(await method(value));
             return result;
         }
+
 
         public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, Func<T, string> property, string searchText) where T : BaseEntity where TC : IEnumerable<T>
         {
