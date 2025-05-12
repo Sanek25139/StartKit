@@ -134,19 +134,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PageService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\PageService.cs",
-              "RelativeDocumentMoniker": "StarterKit.WPF\\Service\\PageService.cs",
-              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\PageService.cs",
-              "RelativeToolTip": "StarterKit.WPF\\Service\\PageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T10:45:40.651Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -157,6 +144,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\PageService.cs",
+              "RelativeDocumentMoniker": "StarterKit.WPF\\Service\\PageService.cs",
+              "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKit.WPF\\Service\\PageService.cs",
+              "RelativeToolTip": "StarterKit.WPF\\Service\\PageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:45:40.651Z"
             },
             {
               "$type": "Document",
@@ -204,8 +203,7 @@
               "RelativeToolTip": "StarterKit.WPF\\BaseVM\\Pages\\BasePageEditVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T03:05:37.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T03:05:37.111Z"
             },
             {
               "$type": "Document",
@@ -288,8 +286,7 @@
               "RelativeToolTip": "StarterKit.WPF\\Service\\WindowService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:55:04.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T06:55:04.241Z"
             },
             {
               "$type": "Document",
@@ -337,8 +334,7 @@
               "RelativeToolTip": "StarterKitEFCore\\EF\\Services\\DataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T09:00:18.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T09:00:18.792Z"
             },
             {
               "$type": "Document",
@@ -396,7 +392,7 @@
               "RelativeDocumentMoniker": "StarterKitEFCore\\Tool\\TypeTool.cs",
               "ToolTip": "C:\\Users\\sasha\\source\\repos\\StarterKitEFCore\\StarterKitEFCore\\Tool\\TypeTool.cs",
               "RelativeToolTip": "StarterKitEFCore\\Tool\\TypeTool.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T12:16:45.029Z",
               "EditorCaption": ""
@@ -423,8 +419,7 @@
               "RelativeToolTip": "StarterKitEFCore\\EF\\Tool\\Tool.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAAGoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:01:54.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T10:01:54.522Z"
             },
             {
               "$type": "Document",

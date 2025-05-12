@@ -45,6 +45,13 @@ namespace StarterKit.Tool
             foreach (T value in values)
                 await method.Invoke(value);
         }
+        public static ICollection<TResult> Executes<T, TResult>(this IEnumerable<T> values, Func<T, TResult> method)
+        {
+            ICollection<TResult> result = [];
+            foreach (T value in values)
+                result.Add(method(value));
+            return result;
+        }
         public static ICollection<T> Executes<T>(this int repeat, Func<T> method)
         {
             ICollection<T> collection = [];
