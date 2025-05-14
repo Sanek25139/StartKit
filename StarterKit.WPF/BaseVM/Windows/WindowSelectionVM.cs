@@ -5,6 +5,7 @@ using StarterKit.EF.Services.Interface;
 using StarterKit.WPF.Service.Interface;
 using System.Collections.ObjectModel;
 using StarterKit.Tool;
+using StarterKit.EF.Tool;
 
 namespace StarterKit.WPF.BaseVM.Windows
 {
@@ -12,7 +13,7 @@ namespace StarterKit.WPF.BaseVM.Windows
     {
         public override async Task Searh(string value)
         {
-            Data = await DataService.GetAllAsync<T>().SearchAsync<T, ObservableCollection<T>>(value);
+            Data = await DataService.GetAllAsync<T>().SearchAsync<T>(value).ToObservable<T>();
         }
     }
     public abstract partial class WindowSelectionBaseVM<T>(IDataService dataService) : BaseWindowVM(dataService), ILoadedAsync where T : BaseEntity
@@ -24,7 +25,7 @@ namespace StarterKit.WPF.BaseVM.Windows
 
         public virtual async Task Loaded()
         {
-            Data = await DataService.GetAllAsync<T>();
+            Data = await DataService.GetAllAsync<T>().ToObservable();
         }
         [RelayCommand]
         private void Choose()

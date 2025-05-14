@@ -43,14 +43,14 @@ namespace StarterKit.EF.Tool
             return entity;
         }
 
-        public static async Task<EntityEntry<T>> TReload<T, TR>(this Task<EntityEntry<T>> taskEntity, Expression<Func<T,TR?>> include) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> TReload<T, TR>(this Task<EntityEntry<T>> taskEntity, Expression<Func<T, TR?>> include) where T : BaseEntity where TR : BaseEntity
         {
             var entity = await taskEntity;
             return await entity.TReload(include);
 
         }
 
-        public static async Task<EntityEntry<T>> SetEntry<T,TR>(this Task<EntityEntry<T>> taskEntity, Func<T,TR> property, Func<TR,Task<EntityEntry<TR>>> reload) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> SetEntry<T, TR>(this Task<EntityEntry<T>> taskEntity, Func<T, TR> property, Func<TR, Task<EntityEntry<TR>>> reload) where T : BaseEntity where TR : BaseEntity
         {
             var entity = await taskEntity;
 
@@ -111,12 +111,19 @@ namespace StarterKit.EF.Tool
                     r.FSM.Contains(searchText))];
         }
 
-        public static void IsSet<T>(ref T property,T value)
+        public static void IsSet<T>(ref T property, T value)
         {
             if (property.Equals(value))
                 return;
             property = value;
         }
 
+        public static async Task<TResult> LinqAsync<T,TResult>(this Task<IQueryable<T>> task ,Func<IEnumerable<T>, TResult> request)
+        {
+            IQueryable<T> source = await task;
+            return request(source);
+        }
+
+       
     }
 }

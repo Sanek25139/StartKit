@@ -56,22 +56,22 @@ namespace StarterKit.EF.Services
         }
 
 
-        public IQueryable<T> GetAll<T>() where T : BaseEntity
+        public IQueryable<T> GetAll<T>() where T : class
         {
             return _context.Set<T>();
         }
 
-        public async Task<ObservableCollection<T>> GetAllAsync<T>() where T : BaseEntity
+        public async Task<IEnumerable<T>> GetAllAsync<T>() where T : class
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
                 var data = await ctx.Set<T>().ToListAsync();
-                return new ObservableCollection<T>(data);
+                return data;
             });
         }
 
-        public async Task<ObservableCollection<T>> GetAllAsync<T>(
-            Func<IQueryable<T>, IQueryable<T>>? queryBuilder = null) where T : BaseEntity
+        public async Task<IEnumerable<T>> GetAllAsync<T>(
+            Func<IQueryable<T>, IQueryable<T>>? queryBuilder = null) where T : class
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
@@ -80,12 +80,12 @@ namespace StarterKit.EF.Services
                 if (queryBuilder != null)
                     query = queryBuilder(query);
 
-                return new ObservableCollection<T>(await query.ToListAsync());
+                return await query.ToListAsync();
             });
         }
 
-        public async Task<ObservableCollection<T>> GetAllWithIncludeAsync<T>(
-            params Expression<Func<T, object?>>[] includes) where T : BaseEntity
+        public async Task<IEnumerable<T>> GetAllWithIncludeAsync<T>(
+            params Expression<Func<T, object?>>[] includes) where T : class
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
@@ -94,11 +94,11 @@ namespace StarterKit.EF.Services
                 foreach (var include in includes)
                     query = query.Include(include);
 
-                return new ObservableCollection<T>(await query.ToListAsync());
+                return await query.ToListAsync();
             });
         }
 
-        public async Task<ObservableCollection<T>> GetAllWithThenIncludeAsync<T>(params Func<IQueryable<T>, IQueryable<T>>[] includes) where T : BaseEntity
+        public async Task<IEnumerable<T>> GetAllWithThenIncludeAsync<T>(params Func<IQueryable<T>, IQueryable<T>>[] includes) where T : class
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
@@ -109,7 +109,7 @@ namespace StarterKit.EF.Services
                     query = include(query);
                 }
 
-                return new ObservableCollection<T>(await query.ToListAsync());
+                return await query.ToListAsync();
             });
         }
         public async Task<T?> GetByIdAsync<T>(ulong id) where T : BaseEntity
@@ -118,7 +118,7 @@ namespace StarterKit.EF.Services
                 await ctx.Set<T>().FindAsync(id));
         }
 
-        public async Task<T> AddAsync<T>(T entity) where T : BaseEntity
+        public async Task<T> AddAsync<T>(T entity) where T : class
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
@@ -128,7 +128,7 @@ namespace StarterKit.EF.Services
             });
         }
 
-        public async Task<T> UpdateAsync<T>(T entity) where T : BaseEntity
+        public async Task<T> UpdateAsync<T>(T entity) where T : class
         {
             return await ExecuteDbOperationAsync(async ctx =>
             {
@@ -161,16 +161,22 @@ namespace StarterKit.EF.Services
 
         public async Task SaveChangesAsync()
         {
-            await _context.SaveChangesAsync();
+            await ExecuteDbOperationAsync(async ctx =>
+            {
+                await _context.SaveChangesAsync();
+            });
         }
 
-        public async Task AddRangeAsync<T>(IEnumerable<T> entites) where T : BaseEntity
+        public async Task AddRangeAsync<T>(IEnumerable<T> entities) where T : class
         {
-            await _context.Set<T>().AddRangeAsync(entites);
-            await _context.SaveChangesAsync();
+            await ExecuteDbOperationAsync(async ctx =>
+            {
+                await _context.Set<T>().AddRangeAsync(entities);
+                await _context.SaveChangesAsync();
+            });
         }
 
-        public bool HasNavigationProperty<T>(T entity, string navigationPropertyName) where T : BaseEntity
+        public bool HasNavigationProperty<T>(T entity, string navigationPropertyName) where T : class
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));
             if (string.IsNullOrWhiteSpace(navigationPropertyName)) throw new ArgumentException("Navigation property name cannot be null or empty.", nameof(navigationPropertyName));
@@ -181,7 +187,7 @@ namespace StarterKit.EF.Services
             return navigation != null && navigation.CurrentValue is IEnumerable<object> collection && collection.Any();
         }
 
-        public bool HasNavigationProperty<T>(T entity, string[] navigationPropertyNames) where T : BaseEntity
+        public bool HasNavigationProperty<T>(T entity, string[] navigationPropertyNames) where T : class
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));
             if (navigationPropertyNames == null || navigationPropertyNames.Length == 0) throw new ArgumentException("Navigation property names cannot be null or empty.", nameof(navigationPropertyNames));
@@ -209,7 +215,7 @@ namespace StarterKit.EF.Services
             return await _context.Set<T>().FirstOrDefaultAsync(e => e == entity);
         }
 
-        public EntityEntry<T> GetEntry<T>(T entity) where T : BaseEntity
+        public EntityEntry<T> GetEntry<T>(T entity) where T : class
         {
             ArgumentNullException.ThrowIfNull(entity);
             return _context.Entry(entity);

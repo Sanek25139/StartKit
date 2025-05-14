@@ -13,16 +13,18 @@ namespace StarterKit.Tool
     {
         public static void Executes<T>(this IEnumerable<T> values, Action<T> method)
         {
-            foreach(T value in values)
+            foreach (T value in values)
                 method(value);
         }
+
         public static void Executes(Action method, int repeat)
         {
-            for(int i = 0; i < repeat; i++)
+            for (int i = 0; i < repeat; i++)
             {
                 method?.Invoke();
             }
         }
+
         public static ICollection<T> Executes<T>(Func<T> method, int repeat)
         {
             ICollection<T> collection = [];
@@ -32,6 +34,7 @@ namespace StarterKit.Tool
             }
             return collection;
         }
+
         public static void Executes(this int repeat, Action method)
         {
             for (int i = 0; i < repeat; i++)
@@ -40,11 +43,12 @@ namespace StarterKit.Tool
             }
         }
 
-        public static async Task ExecutesAsync<T>(this IEnumerable<T> values, Func<T,Task> method)
+        public static async Task ExecutesAsync<T>(this IEnumerable<T> values, Func<T, Task> method)
         {
             foreach (T value in values)
                 await method.Invoke(value);
         }
+
         public static ICollection<TResult> Executes<T, TResult>(this IEnumerable<T> values, Func<T, TResult> method)
         {
             ICollection<TResult> result = [];
@@ -52,6 +56,7 @@ namespace StarterKit.Tool
                 result.Add(method(value));
             return result;
         }
+
         public static ICollection<T> Executes<T>(this int repeat, Func<T> method)
         {
             ICollection<T> collection = [];
@@ -62,8 +67,8 @@ namespace StarterKit.Tool
             return collection;
         }
 
-        
-        public static async Task<ICollection<TResult> > ExecutesAsync<T, TResult>(this IEnumerable<T> values, Func<T, Task<TResult>> method)
+
+        public static async Task<ICollection<TResult>> ExecutesAsync<T, TResult>(this IEnumerable<T> values, Func<T, Task<TResult>> method)
         {
             ICollection<TResult> result = [];
             foreach (T value in values)
@@ -72,7 +77,7 @@ namespace StarterKit.Tool
         }
 
 
-        public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, Func<T, string> property, string searchText) where T : BaseEntity where TC : IEnumerable<T>
+        public static async Task<IEnumerable<T>> SearchAsync<T>(this Task<IEnumerable<T>> source, Func<T, string> property, string searchText) where T : BaseEntity
         {
             IEnumerable<T> records = await source;
             ArgumentNullException.ThrowIfNull(records);
@@ -89,20 +94,21 @@ namespace StarterKit.Tool
             });
             return [.. result];
         }
-        public static async Task<ObservableCollection<T>> SearchAsync<T, TC>(this Task<TC> source, string searchText) where T : NameEntity where TC : IEnumerable<T>
+
+        public static async Task<IEnumerable<T>> SearchAsync<T>(this Task<IEnumerable<T>> source, string searchText) where T : NameEntity
         {
             IEnumerable<T> records = await source;
             ArgumentNullException.ThrowIfNull(records);
             ArgumentNullException.ThrowIfNull(searchText);
+
             if (string.IsNullOrWhiteSpace(searchText))
                 return [.. records];
             return [.. records.Where(record => record.Name != null && record.Name.Contains(searchText, StringComparison.CurrentCultureIgnoreCase))];
         }
-        public static async Task<ObservableCollection<T>> SearchByFSMAsync<T, TC>(
-        this Task<TC> source,
+        public static async Task<IEnumerable<T>> SearchByFSMAsync<T>(
+        this Task<IEnumerable<T>> source,
         string searchText)
         where T : BaseEntity, IFSM
-        where TC : IEnumerable<T>
         {
             IEnumerable<T> records = await source;
             ArgumentNullException.ThrowIfNull(records);
@@ -113,6 +119,24 @@ namespace StarterKit.Tool
             return [.. records.Where(r =>
                     r.FSM != null &&
                     r.FSM.Contains(searchText))];
+        }
+
+        public static async Task<TResult> LinqAsync<T, TResult>(this Task<IEnumerable<T>> task, Func<IEnumerable<T>, TResult> request)
+        {
+            IEnumerable<T> source = await task;
+            return request(source);
+        }
+        public static async Task<ObservableCollection<T>> ToObservable<T>(this Task<IEnumerable<T>> sourse) where T : class
+        {
+            return [.. await sourse];
+        }
+        public static async Task<List<T>> ToList<T>(this Task<IEnumerable<T>> sourse) where T : class
+        {
+            return [.. await sourse];
+        }
+        public static async Task<T[]> ToArray<T>(this Task<IEnumerable<T>> sourse) where T : class
+        {
+            return [.. await sourse];
         }
     }
 }
