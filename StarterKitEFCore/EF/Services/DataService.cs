@@ -3,13 +3,8 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using StarterKit.EF.Model;
 using StarterKit.EF.Services.Interface;
 using StarterKit.Tool;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
+using System.Data.SqlClient; // Для SqlException
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StarterKit.EF.Services
 {
@@ -25,10 +20,12 @@ namespace StarterKit.EF.Services
             {
                 return await operation(_context);
             }
+            
             finally
             {
                 _dbSemaphore.Release();
             }
+            
         }
         public async Task ExecuteDbOperationAsync(Func<TC, Task> operation)
         {

@@ -15,7 +15,7 @@ namespace StarterKit.EF.Tool
 {
     public static class Tool
     {
-        public static async Task Reloads<T, TR>(this EntityEntry<T> entity, params Expression<Func<T, IEnumerable<TR>>>[] includes) where T : BaseEntity where TR : BaseEntity
+        public static async Task Reloads<T, TR>(this EntityEntry<T> entity, params Expression<Func<T, IEnumerable<TR>>>[] includes) where T : class where TR : class
         {
             foreach (var include in includes)
             {
@@ -25,32 +25,32 @@ namespace StarterKit.EF.Tool
 
 
 
-        public static async Task<EntityEntry<T>> TReload<T, TR>(this EntityEntry<T> entity, Expression<Func<T, IEnumerable<TR>>> include) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> TReload<T, TR>(this EntityEntry<T> entity, Expression<Func<T, IEnumerable<TR>>> include) where T : class where TR : class
         {
             await entity.Collection(include).LoadAsync();
             return entity;
         }
-        public static async Task<EntityEntry<T>> TReload<T, TR>(this Task<EntityEntry<T>> taskEntity, Expression<Func<T, IEnumerable<TR>>> include) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> TReload<T, TR>(this Task<EntityEntry<T>> taskEntity, Expression<Func<T, IEnumerable<TR>>> include) where T : class where TR : class
         {
             var entity = await taskEntity;
             return await entity.TReload(include);
             //return entity;
         }
 
-        public static async Task<EntityEntry<T>> TReload<T, TR>(this EntityEntry<T> entity, Expression<Func<T, TR?>> include) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> TReload<T, TR>(this EntityEntry<T> entity, Expression<Func<T, TR?>> include) where T : class where TR : class
         {
             await entity.Reference(include).LoadAsync();
             return entity;
         }
 
-        public static async Task<EntityEntry<T>> TReload<T, TR>(this Task<EntityEntry<T>> taskEntity, Expression<Func<T, TR?>> include) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> TReload<T, TR>(this Task<EntityEntry<T>> taskEntity, Expression<Func<T, TR?>> include) where T : class where TR : class
         {
             var entity = await taskEntity;
             return await entity.TReload(include);
 
         }
 
-        public static async Task<EntityEntry<T>> SetEntry<T, TR>(this Task<EntityEntry<T>> taskEntity, Func<T, TR> property, Func<TR, Task<EntityEntry<TR>>> reload) where T : BaseEntity where TR : BaseEntity
+        public static async Task<EntityEntry<T>> SetEntry<T, TR>(this Task<EntityEntry<T>> taskEntity, Func<T, TR> property, Func<TR, Task<EntityEntry<TR>>> reload) where T : class where TR : class
         {
             var entity = await taskEntity;
 
@@ -124,6 +124,7 @@ namespace StarterKit.EF.Tool
             return request(source);
         }
 
+        //public GetAsyncValue
        
     }
 }

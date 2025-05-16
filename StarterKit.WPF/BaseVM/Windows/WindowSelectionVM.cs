@@ -13,11 +13,13 @@ namespace StarterKit.WPF.BaseVM.Windows
     {
         public override async Task Searh(string value)
         {
-            Data = await DataService.GetAllAsync<T>().SearchAsync<T>(value).ToObservable<T>();
+            Data = await DataService.GetAllAsync<T>(QueryBuilder).SearchAsync<T>(value).ToObservable<T>();
         }
     }
     public abstract partial class WindowSelectionBaseVM<T>(IDataService dataService) : BaseWindowVM(dataService), ILoadedAsync where T : BaseEntity
     {
+        public Func<IQueryable<T>, IQueryable<T>>? QueryBuilder;
+
         [ObservableProperty] private T? _selectedValue;
         [ObservableProperty] private ObservableCollection<T> _data = [];
 
@@ -25,7 +27,7 @@ namespace StarterKit.WPF.BaseVM.Windows
 
         public virtual async Task Loaded()
         {
-            Data = await DataService.GetAllAsync<T>().ToObservable();
+            Data = await DataService.GetAllAsync<T>(QueryBuilder).ToObservable();
         }
         [RelayCommand]
         private void Choose()

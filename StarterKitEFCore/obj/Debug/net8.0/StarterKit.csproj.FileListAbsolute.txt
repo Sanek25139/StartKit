@@ -11,3 +11,5 @@ C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net8.0\S
 C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net8.0\refint\StarterKit.dll
 C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net8.0\StarterKit.pdb
 C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net8.0\ref\StarterKit.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\bin\Debug\net8.0\StarterKit.runtimeconfig.json
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\obj\Debug\net8.0\StarterKit.genruntimeconfig.cache

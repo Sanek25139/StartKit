@@ -9,9 +9,8 @@ namespace StarterKit.EF.Services.Interface
 {
     public interface IUserService<T> where T : BaseEntity, IUser
     {
-        T? User { get; protected set; }
         event Action<T?> OnChangeUser;
-        T? GetUser() => User;
+        T? GetUser();
 
         Task<bool> SignIn(string login, string password);
         void SignOut();

@@ -14,3 +14,5 @@ C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-win
 C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\refint\StarterKit.WPF.dll
 C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.pdb
 C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\ref\StarterKit.WPF.dll
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\bin\Debug\net9.0-windows\StarterKit.WPF.runtimeconfig.json
+C:\Users\sasha\source\repos\StarterKitEFCore\StarterKit.WPF\obj\Debug\net9.0-windows\StarterKit.WPF.genruntimeconfig.cache

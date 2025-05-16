@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>StarterKit</id>
+    <version>1.0.0</version>
+    <authors>StarterKit</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="0714835571a540f21f74c32d1626a27056f7fe94" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="BCrypt.Net-Next" version="4.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="9.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\sasha\source\repos\StarterKitEFCore\StarterKitEFCore\bin\Debug\net8.0\StarterKit.dll" target="lib\net8.0\StarterKit.dll" />
+  </files>
+</package>

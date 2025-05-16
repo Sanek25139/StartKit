@@ -77,6 +77,49 @@ namespace StarterKit.Tool
         }
 
 
+        public static IEnumerable<T> Search<T>(this IEnumerable<T> source, Func<T, string> property, string searchText) where T : BaseEntity
+        {
+            ArgumentNullException.ThrowIfNull(source);
+            ArgumentNullException.ThrowIfNull(searchText);
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. source];
+
+            var result = source.Where(record =>
+            {
+
+                var propertyValue = property(record);
+                return propertyValue != null && propertyValue.Contains(searchText, StringComparison.CurrentCultureIgnoreCase);
+            });
+            return [.. result];
+        }
+
+        public static IEnumerable<T> Search<T>(this IEnumerable<T> source, string searchText) where T : NameEntity
+        {
+            ArgumentNullException.ThrowIfNull(source);
+            ArgumentNullException.ThrowIfNull(searchText);
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. source];
+            return [.. source.Where(record => record.Name != null && record.Name.Contains(searchText, StringComparison.CurrentCultureIgnoreCase))];
+        }
+
+        public static IEnumerable<T> SearchByFSM<T>(
+        this IEnumerable<T> source,
+        string searchText)
+        where T : BaseEntity, IFSM
+        {
+            ArgumentNullException.ThrowIfNull(source);
+
+            if (string.IsNullOrWhiteSpace(searchText))
+                return [.. source];
+
+            return [.. source.Where(r =>
+                    r.FSM != null &&
+                    r.FSM.Contains(searchText))];
+        }
+
+
         public static async Task<IEnumerable<T>> SearchAsync<T>(this Task<IEnumerable<T>> source, Func<T, string> property, string searchText) where T : BaseEntity
         {
             IEnumerable<T> records = await source;
@@ -126,6 +169,10 @@ namespace StarterKit.Tool
             IEnumerable<T> source = await task;
             return request(source);
         }
+        public static ObservableCollection<T> ToObservable<T>(this IEnumerable<T> sourse) where T : class
+        {
+            return [.. sourse];
+        }
         public static async Task<ObservableCollection<T>> ToObservable<T>(this Task<IEnumerable<T>> sourse) where T : class
         {
             return [.. await sourse];
@@ -138,5 +185,25 @@ namespace StarterKit.Tool
         {
             return [.. await sourse];
         }
+
+        public static IEnumerable<DateTime> GetDatesInRange(DateTime startDate, DateTime endDate)
+        {
+            if (endDate < startDate)
+                throw new ArgumentException("Дата конца должна быть не меньше даты начала.");
+            ICollection<DateTime> dates = [];
+
+            for (DateTime date = startDate.Date; date <= endDate.Date; date = date.AddDays(1))
+            {
+                dates.Add(date);
+            }
+            return dates;
+        }
+        public static IEnumerable<DateTime> GetDatesInRange(this IEnumerable<DateTime> source, DateTime startDate, DateTime endDate)
+        {
+            if (endDate < startDate)
+                throw new ArgumentException("Дата конца должна быть не меньше даты начала.");
+            return source.Where(date => date >= startDate && date <= endDate);
+        }
+
     }
 }
